@@ -117,6 +117,10 @@
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="BottomBar.XamarinForms, Version=1.0.6334.21543, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\ThriveGmbH.BottomNavigationBar.XF.1.0.2\lib\Xamarin.iOS10\BottomBar.XamarinForms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />

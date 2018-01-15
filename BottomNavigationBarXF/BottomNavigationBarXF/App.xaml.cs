@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using BottomNavigationBarXF.Views;
 using Xamarin.Forms;
 
 namespace BottomNavigationBarXF
@@ -13,7 +13,8 @@ namespace BottomNavigationBarXF
         {
             InitializeComponent();
 
-            MainPage = new BottomNavigationBarXF.MainPage();
+            //MainPage = new BottomNavigationBarXF.MainPage();
+            MainPage = new MainNavigation();
         }
 
         protected override void OnStart()
