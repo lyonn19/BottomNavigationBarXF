@@ -28,7 +28,7 @@ namespace BottomNavigationBarXF.Views
             {
                 Title = "Home",
                 Icon = "ic_action_home.png",
-                BarTextColor = Color.FromHex("DEC69D")
+                BarTextColor = Color.Red
             });
 
             Children.Add(new NavigationPage(new Page2())
